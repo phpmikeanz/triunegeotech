@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://triunegeotech.netlify.app"><strong>Live website</strong></a>
+  <a href="https://phpmikeanz.github.io/triunegeotech/"><strong>Live website</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/phpmikeanz/triunegeotech">Source</a>
 </p>
@@ -73,7 +73,7 @@ Testing and engineering work follow **ASTM**, **DPWH**, and **NSCP** requirement
 | UI | React 19 |
 | Styling | Tailwind CSS 4 |
 | Type | TypeScript |
-| Hosting | Netlify |
+| Hosting | GitHub Pages |
 
 The site is a single-page company profile: hero, credentials, services, projects, fieldwork, FAQ, and inquiry form. Light and dark themes are supported. Layouts are built for phone, tablet, and desktop.
 
@@ -90,8 +90,11 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ```bash
 npm run build
-npm start
 ```
+
+The production site is a static export. GitHub Pages publishes it at:
+
+**https://phpmikeanz.github.io/triunegeotech/**
 
 ---
 
